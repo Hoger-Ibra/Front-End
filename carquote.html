@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<title>QuickQuote</title>
+</head>
+<body>
+<ul class="navigation">
+    <li class="nav-item"><a href="index.html">Home</a></li>
+    <li class="nav-item"><a href="carquote.html">Car Quote</a></li>
+    <li class="nav-item"><a href="bikequote.html">Bike Quote</a></li>
+    <li class="nav-item"><a href="vanquote.html">Van Quote</a></li>
+    <li class="nav-item"><a href="homequote.html">Home Quote</a></li>
+    <li class="nav-item"><a href="about.html">About Us</a></li>
+    <li class="nav-item"><a href="faq.html">FAQs</a></li>
+    <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+</ul>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="dB">Menu</p><img src="logo.png" alt="logo" width="350%" /><div class="social"><a href="https://www.facebook.com/EasyQuoteTest/"><img src="facebook.png" alt="facebook" /></a><a href="https://twitter.com/EasyQuoteTest"><img src="twitter.png" alt="twitter" /></a><a href="https://www.instagram.com/easyquotetest/?hl=en"><img src="instagram.png" alt="instagram" /></a></div></label>
+
+<div class="site-wrap">
+	<div class="container">
+		<div id="logo"><img src="carIcon.png" alt="logo" /></div>
+		<div id="Welcome">
+			<h1>Car Insurance</h1>
+			<div class="newQuote">
+				
+
+						<h2> Car Insurance </h2>
+			<p>QuickQuote is a new insurance system that will gather your details and submit it onto the underwriters database for the underwriters to offer a annual premium. Cover also includes:
+			<br>
+			1. Windscreen Cover
+			<br>
+			2. Vandalism Promise
+			<br>
+			3. Uninsured Driver Promise.
+			<br>
+			4. Courtesy Car</p>			
+
+
+					<h3>Tell Us About Your Car</h3>
+		<!--FORM STARTS HERE-->
+		<form name="insurace" action="thankyou.html">
+			<p>Enter the registration number: </p>
+			<input  type="text" name="registrationNo" maxlength="10" size="15" placeholder="E.G. ABC 1234" required>
+			<p>Don't know the registration number? Click <a href="information.html">here</a></p>
+			<p>Has the vehicle been modified?</p>
+			<p><input type="radio" name="modified" value="yes">Yes </p>
+			<p><input type="radio" name="modified" value="no">No </p>
+			<p>What is the estimated market value for the vehicle?(£)</p>
+			<input type="text" name="value" maxlength="10" size="10" placeholder="E.G. £10000" required>
+			<h3><u>Ownership</u></h3>
+			<p>When did you purchase this vehicle?</p>
+			<p>Month(MM)<input type="text" name="month" maxlength="2" size="5" placeholder="01"></p>
+			<p>Year(YYYY)<input type="text" name="year" maxlength="4" size="7" placeholder="2000"></p>
+			<p>Not bought yet?<input type="radio" name="purchased" value="not"></p>
+			<p>Are you the legal owner of the vehicle?</p>
+			<p><input type="radio" name="legal" value="yes">Yes </p>
+			<p><input type="radio" name="legal" value="no">No </p>
+			<p>What do you use the vehicle for?
+			<select name="vehicleUsage">
+				<option value="social">Social</option>
+				<option value="business">Business</option>
+				<option value="travelling">Travelling</option>
+			</select></p>
+			
+			<p>Where is the vehicle parked overnight?</p>
+			<p><input type="radio" name="overnightParking" value="yes">Yes </p>
+			<p><input type="radio" name="overnightParking" value="no">No </p>
+			<p>Total mileage of the car?</p>
+			<input  type="text" name="mileage" maxlength="10" size="15" placeholder="E.G. 40000 miles" required>
+		<input type="submit" value="Submit your details" />
+		</form>
+			
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
